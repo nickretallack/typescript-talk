@@ -1,0 +1,15 @@
+If you import something nonlocal, Node will look for a matching directory inside the node_modules folder in current directory.
+If it doesn't find it there, it will go up to the parent directory and try again.
+It keeps going up until it reaches the root of your filesystem.
+
+It's important to note that it doesn't consult package.json at all when doing this -- not for the importer or the imported package.
+
+There are two kinds of packages it looks for:
+* regular packages: example.
+* modules that are in organizations: @example/example
+
+Packages in an organization always begin with @.
+When node sees that, it knows the real module name is @example/example, not just @example.
+This is how it knows where to start looking for code.
+
+Notice even for these node_modules you still don't need package.json!

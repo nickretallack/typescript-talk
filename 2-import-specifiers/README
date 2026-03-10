@@ -1,0 +1,4 @@
+We've covered ESM and CJS import statements and require calls.
+
+Now let's talk about "import specifiers", which is what you call the argument you pass them.
+It's the same regardless of which module system you're using.

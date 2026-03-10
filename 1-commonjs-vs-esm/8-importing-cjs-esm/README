@@ -1,0 +1,14 @@
+CJS is synchronous.
+ESM is asynchronous.
+
+It's easy to import something synchronous in a context that expects things to be asynchronous.
+but it's not easy to import something asynchronous from a context that expects things to be synchronous.
+
+Thus, ESM could import CJS, but CJS couldn't import ESM.
+If you tried, node would throw an error.
+
+However, Bun came up with a seamless solution to this problem.
+A solution that Node would incorporate as experimental in version 22 and unflagged in version 24.
+
+
+TODO: use nvm to demonstrate node support for importing modules in different versions.

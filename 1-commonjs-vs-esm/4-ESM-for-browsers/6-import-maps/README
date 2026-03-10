@@ -1,0 +1,2 @@
+For larger projects, repeating the same CDN URLs everywhere isn't great.
+So you can use import maps to declare aliases for them.

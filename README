@@ -1,0 +1,20 @@
+I'd like to share my knowledge on Typescript.
+
+This talk is going to be all about modules and imports.
+
+This is all stuff that's good to know as a typescript developer.
+However, a lot of this talk will be about things other than typescript, such as:
+
+- Your browser
+- Node
+- Yarn Plug'n'Play
+- PNPM
+
+You'll learn how the module system really works.
+
+These are all runnable examples. I encourage you to check out this repository and try them yourself!
+
+More reading:
+
+- A horrifically deep dive into TypeScript module resolution: https://www.youtube.com/watch?v=MEl2R7mEAP8&t=1s
+- Total Typescript online course: https://www.totaltypescript.com/

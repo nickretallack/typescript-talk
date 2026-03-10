@@ -1,0 +1,3 @@
+In Node version 16, they added two powerful new fields to package.json:
+* imports: A better alternative to typescript path aliases
+* exports: A way to control what your package exports and keep it consistent

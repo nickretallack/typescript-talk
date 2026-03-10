@@ -1,0 +1,6 @@
+The EcmaScript Module system introduces two new keywords:
+* import
+* export
+
+Unlike CommonJS, it doesn't primarily use functions (require) or objects (module.exports).
+It uses these two new kinds of statements that can be statically analyzed.

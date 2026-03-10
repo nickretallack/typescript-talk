@@ -1,0 +1,6 @@
+So, what if you wanted to write ESM and run it in NodeJS?
+Node first got experimental support for ESM in version 8,
+but it wasn't until verison 12 that it was available without the experimental flag.
+
+In the meantime, Typesript adopted ESM as its primary module format.
+and you could use the Typescript compiler to convert ESM to CJS.

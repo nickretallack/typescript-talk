@@ -1,0 +1,10 @@
+Since node never consults package.json when resolving dependencies,
+it's easy to end up resolving dependencies you never declared,
+just because they happen to exist inside node_modules.
+
+For example, if you depend on a package (is-odd)
+which depends on another package (is-number)
+there's nothing stopping you from importing the transitive dependency (is-number).
+
+This can be bad, since upgrading the direct dependency (is-odd)
+could result in the transitive dependency being upgraded or even removed.

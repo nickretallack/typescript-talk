@@ -1,0 +1,3 @@
+When you load an ESM file, before it runs any of the code, it extracts all the import statements and loads them first.
+As a result, it discovers and loads the whole code base before it runs any of the code.
+This is generally what you want in browser-based apps: to keep the loading waterfall as shallow as possible.
