@@ -1,0 +1,2 @@
+You can attach things to module.exports individually, like this.
+`module` can be implied, just like `window` can.

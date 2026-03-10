@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "imports": {
+    "#deep/*": "./src/deeply/nested/*",
+    "#root/*": "./src/*"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "packageManager": "yarn@4.13.0",
+  "type": "module",
+  "dependencies": {
+    "is-odd": "^3.0.1"
+  }
+}

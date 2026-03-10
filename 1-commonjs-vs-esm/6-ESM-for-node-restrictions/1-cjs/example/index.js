@@ -1,3 +1,3 @@
 exports.hello = () => {
-  console.log("Hello!");
+  console.log("Hello from CommonJS!");
 };

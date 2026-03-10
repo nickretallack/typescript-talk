@@ -1,0 +1,5 @@
+Folks wanted to run the same code in the server and the browser,
+so they made tools to bundle CommonJS for the browser.
+
+However, to make `require` work synchronously like it did on the server side,
+they had to bundle everything into one file.

@@ -1,0 +1,13 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "dist",
+    "baseUrl": "src",
+    "rootDir": "src",
+    "paths": {
+      "root/*": ["./*"],
+      "deep/*": ["./deeply/nested/*"]
+    }
+  }
+}

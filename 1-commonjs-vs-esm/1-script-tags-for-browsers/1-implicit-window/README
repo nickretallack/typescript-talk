@@ -1,0 +1,1 @@
+`window` is actually the default context, so any stray definitions end up being attached to it.
