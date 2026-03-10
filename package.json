@@ -1,0 +1,10 @@
+{
+  "name": "commonjs-browser-example",
+  "type": "commonjs",
+  "devDependencies": {
+    "esbuild": "^0.27.3",
+    "typescript": "^5.9.3",
+    "webpack": "^5.105.4",
+    "webpack-cli": "^6.0.1"
+  }
+}

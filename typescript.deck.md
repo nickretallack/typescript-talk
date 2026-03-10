@@ -11,25 +11,39 @@ This is your first slide!
 
 ## Script Tags: Open All Files + Web Preview
 
-Opens `lib.js`, `main.js`, and `index.html` in editor panes, plus `index.html` in the built-in Simple Browser—all inside VS Code. (Update the Simple Browser path in the action if your workspace is elsewhere.)
+4-pane layout: index.html | lib.js, Simple Browser | main.js. Starts Chrome debug so the Debug Console (browser console) appears in the Panel below. (Update the Simple Browser path if your workspace is elsewhere.)
 
 ```action
 type: sequence
-label: Open Script Tags files + web preview
+label: Open Script Tags 4-pane + browser console
 steps:
-  - type: file.open
-    path: 1-modules/1-script-tags/lib.js
-  - type: vscode.command
-    id: workbench.action.splitEditorRight
-  - type: file.open
-    path: 1-modules/1-script-tags/main.js
-  - type: vscode.command
-    id: workbench.action.splitEditorRight
   - type: file.open
     path: 1-modules/1-script-tags/index.html
   - type: vscode.command
+    id: workbench.action.splitEditorRight
+  - type: file.open
+    path: 1-modules/1-script-tags/lib.js
+  - type: vscode.command
+    id: workbench.action.focusFirstEditorGroup
+  - type: vscode.command
+    id: workbench.action.splitEditorDown
+  - type: vscode.command
+    id: workbench.action.focusSecondEditorGroup
+  - type: vscode.command
+    id: workbench.action.splitEditorDown
+  - type: vscode.command
+    id: workbench.action.focusThirdEditorGroup
+  - type: vscode.command
     id: simpleBrowser.show
     args: ["file:///Users/nicholas.retallack/typescript-talk/1-modules/1-script-tags/index.html"]
+  - type: vscode.command
+    id: workbench.action.focusFourthEditorGroup
+  - type: file.open
+    path: 1-modules/1-script-tags/main.js
+  - type: debug.start
+    configName: Launch script-tags
+  - type: vscode.command
+    id: workbench.action.panel.focus
 ```
 
 ---
