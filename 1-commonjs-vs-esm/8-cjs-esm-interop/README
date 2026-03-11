@@ -14,6 +14,5 @@ To use these examples, `cd` into the node version directories and run the script
 If you have `nvm` set up, it should automatically switch to the correct version of node when you enter the directory.
 
 
-
-TODO: use nvm to demonstrate node support for importing modules in different versions.
+TODO:
 * talk about interop in typescript, rollup/vite

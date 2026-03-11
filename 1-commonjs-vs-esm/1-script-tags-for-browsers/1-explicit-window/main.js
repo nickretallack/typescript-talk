@@ -1,2 +1,1 @@
 window.hello();
-hello2();

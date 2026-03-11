@@ -1,0 +1,5 @@
+[
+  { "id": 1, "title": "Set up import maps", "completed": true },
+  { "id": 2, "title": "Verify TypeScript type checking", "completed": true },
+  { "id": 3, "title": "Test transitive dependency pinning", "completed": false }
+]
