@@ -2,7 +2,7 @@
   "include": ["src"],
   "compilerOptions": {
     "outDir": "dist",
-    "module": "ESNext",
+    "module": "CommonJS",
     "allowJs": true
   }
 }

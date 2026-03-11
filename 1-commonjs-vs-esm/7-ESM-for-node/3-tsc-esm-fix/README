@@ -1,0 +1,38 @@
+Traditionally, parts of our code base that are run in node are compiled into CommonJS.
+This makes sense, since CommonJS was made for Node.
+
+However, modern frontend frameworks like Vite and even NextJS vastly prefer to work with ESM.
+They might have to take additional time transpiling your built code from CJS to ESM.
+So, for libraries that are shared between node and the browser,
+it would be good to build them into ESM in the first place.
+
+However, switching the build to ESM means you're now subjected to Node's new limitations.
+
+Typescript never modifies your import specifiers, so what can we do?
+Fortunately, I've found this handy tool: tsc-esm-fix.
+It can fix your source code to comply with Node's new restrictions.
+
+To see the working CommonJS version:
+
+```
+./build
+./run
+```
+
+To run up against node's rescriptions:
+
+- change package.json's type to "module"
+- change tsconfig.json's module to ESNext (or NodeNext - tsc-esm-fix will print an error, but you can ignore it)
+
+```
+./build
+./run
+```
+
+To fix the source code:
+
+```
+./fix
+./build
+./run
+```

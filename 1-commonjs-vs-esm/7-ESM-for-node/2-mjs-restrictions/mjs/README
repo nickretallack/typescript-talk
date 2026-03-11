@@ -1,0 +1,3 @@
+Even with the .js file extensions,
+if you're using ESM,
+node expects you to be explicit about file extensions and index files.

@@ -1,0 +1,4 @@
+With this proliferation of file extensions, they decided they don't want to do file extension guessing anymore,
+so if you're using ESM or any of these file extensions, you need to be explicit now.
+While they were at it, they got rid of the ability to discover index files.
+This is what Typescript calls "module": "NodeNext". It's the most compatible format. I recommend we use it everywhere if possible.

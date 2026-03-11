@@ -8,7 +8,11 @@ Thus, ESM could import CJS, but CJS couldn't import ESM.
 If you tried, node would throw an error.
 
 However, Bun came up with a seamless solution to this problem.
-A solution that Node would incorporate as experimental in version 22 and unflagged in version 24.
+A solution that Node would incorporate as experimental in version 20.17.0 and unflagged in version 20.19.0.
+
+To use these examples, `cd` into the node version directories and run the scripts there.
+If you have `nvm` set up, it should automatically switch to the correct version of node when you enter the directory.
+
 
 
 TODO: use nvm to demonstrate node support for importing modules in different versions.

@@ -1,0 +1,2 @@
+These won't work, since `example/index.cjs` has the .cjs file extension.
+Node won't check for these new file extensions.  You have to be explicit.

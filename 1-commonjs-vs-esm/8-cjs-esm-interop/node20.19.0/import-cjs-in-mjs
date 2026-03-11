@@ -1,0 +1,2 @@
+# succeeds
+node ../src/import-cjs.mjs
