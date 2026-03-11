@@ -1,7 +1,13 @@
 PNMP came after Yarn Plug'n'Play.
-It also supports Plug'n'Play, but it can also solve the phantom dependencies issue without messing with node.
+It also supports Plug'n'Play,
+but it also has its own way of fixing the phantom dependencies issue
+while still using node_modules and regular node module resolution.
 
 It does this by hiding the dependencies node shouldn't resolve in node_modules/.pnpm.
+
+Notice that it doesn't resolve `is-number`, which is a dependency of `is-odd`.
+However, it does resolve the distant dependency!
+So, it isn't perfect. You can still get unrelated dependencies sneaking in from parent directories.
 
 Run these like this:
 
@@ -9,9 +15,9 @@ Run these like this:
 corepack pnpm install
 
 # works
-corepack pnpm node 1-use-direct-dependency.js
+node 1-use-direct-dependency.js
+node 3-use-distant-node-module.js
 
 # fails
 node 2-use-indirect-dependency.js
-node 3-use-distant-node-module.js
 ```

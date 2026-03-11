@@ -12,3 +12,4 @@ A solution that Node would incorporate as experimental in version 22 and unflagg
 
 
 TODO: use nvm to demonstrate node support for importing modules in different versions.
+* talk about interop in typescript, rollup/vite

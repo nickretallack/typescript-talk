@@ -3,7 +3,7 @@ module.exports = {
   mode: "production",
   entry: "./main.cjs",
   output: {
-    filename: "bundle.js",
+    filename: "webpack/bundle.js",
     path: path.resolve(__dirname, "dist"),
   },
   target: "web",
