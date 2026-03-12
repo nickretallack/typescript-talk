@@ -1,3 +1,6 @@
 You can export and import things individually.
 You can also set a default export.
 Unlike in CommonJS, you can import and export indivdiual names and a default at the same time.
+
+If you need something that isn't a static import statement, you can use the import function.
+It's asynchronous.

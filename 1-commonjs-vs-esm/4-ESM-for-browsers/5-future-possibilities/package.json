@@ -1,0 +1,26 @@
+{
+  "name": "9-vite-jspm",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run build && npm run serve",
+    "dev:watch": "npx tsc -p tsconfig.emit.json --watch",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && node scripts/build-static.mjs",
+    "serve": "npx http-server dist -p 5173 -c-1"
+  },
+  "devDependencies": {
+    "@jspm/generator": "^2.11.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "es-module-lexer": "^2.0.0",
+    "http-server": "^14.1.1",
+    "typescript": "~5.9.3"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.21",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  }
+}

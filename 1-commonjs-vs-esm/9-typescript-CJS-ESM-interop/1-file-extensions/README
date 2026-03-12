@@ -1,0 +1,13 @@
+You always write typescript like it's ESM.
+However, the file extension you use determines what it compiles to:
+
+.cts - compiles to .cjs
+.mts - compiles to .mjs
+.js - stays .js but can to CJS depending on the "type" field in package.json.
+
+`@types/node` brings in a type for `require()`,
+so `require()` calls will unfortunately the type check even if they're destined to be in ESM, where they won't work.
+
+There's a special `import x = require("x")` syntax
+that is required if you want to get the types from a `require()`.
+Try hovering the different examples to compare.

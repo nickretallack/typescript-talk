@@ -1,2 +1,0 @@
-If you need something that isn't a static import statement, you can use the import function.
-As you can see, it's asynchronous.

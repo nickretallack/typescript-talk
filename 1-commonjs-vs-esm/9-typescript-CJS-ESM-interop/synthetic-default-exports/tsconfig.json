@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "esModuleInterop": true,
+    "module": "NodeNext",
+    "outDir": "dist",
+    "types": ["node"],
+    "rootDir": "src"
+  },
+  "include": ["src"]
+}
