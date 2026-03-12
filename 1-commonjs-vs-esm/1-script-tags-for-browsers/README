@@ -1,3 +1,7 @@
 Back in the day, we brought in JavaScript with script tags.
 To import JavaScript, you'd add a script tag to the DOM.
 To export things, you'd attach them to the global `window` object.
+
+`window` is actually the default context,
+so any stray definitions end up being attached to it,
+making these interchangeable.
