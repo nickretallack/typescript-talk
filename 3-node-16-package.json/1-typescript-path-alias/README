@@ -1,0 +1,7 @@
+You define typescript path aliases in tsconfig.json.
+
+Not all tools will consult these though,
+and typescript leaves them unchanged in the output.
+This can easily result in code that doesn't run.
+
+You can use `tsc-alias` to fix them in your output.
