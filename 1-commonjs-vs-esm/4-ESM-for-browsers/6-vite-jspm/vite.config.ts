@@ -1,10 +1,6 @@
 import { defineConfig } from "vite";
-import jspmPlugin from "vite-plugin-jspm";
+import { browserImportMapPlugin } from "./plugins/vite-plugin-browser-importmap";
 
 export default defineConfig({
-  plugins: [
-    jspmPlugin({
-      debug: false,
-    }),
-  ],
+  plugins: browserImportMapPlugin(),
 });
