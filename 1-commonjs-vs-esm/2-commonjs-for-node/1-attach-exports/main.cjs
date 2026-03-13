@@ -1,3 +1,4 @@
 const lib = require("./lib.cjs");
 
-lib.hello();
+lib.hello1();
+lib.hello2();

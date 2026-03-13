@@ -1,1 +1,1 @@
-You can also replace module.exports with something else entirely.
+You can also replace module.exports with something else entirely, like a function.
