@@ -1,18 +1,17 @@
 CJS is synchronous.
 ESM is asynchronous.
 
-It's easy to import something synchronous in a context that expects things to be asynchronous.
-but it's not easy to import something asynchronous from a context that expects things to be synchronous.
+It's easy to import something synchronous
+in a context that expects things to be asynchronous,
+but it's not easy to import something asynchronous
+from a context that expects things to be synchronous.
 
 Thus, ESM could import CJS, but CJS couldn't import ESM.
 If you tried, node would throw an error.
 
 However, Bun came up with a seamless solution to this problem.
-A solution that Node would incorporate as experimental in version 20.17.0 and unflagged in version 20.19.0.
+A solution that Node would incorporate as experimental in version 20.17.0
+and unflagged in version 20.19.0.
 
 To use these examples, `cd` into the node version directories and run the scripts there.
 If you have `nvm` set up, it should automatically switch to the correct version of node when you enter the directory.
-
-
-TODO:
-* talk about interop in typescript, rollup/vite

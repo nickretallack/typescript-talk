@@ -1,0 +1,8 @@
+In typescript,
+you can always write code as if it's ESM.
+However, the module setting in tsconfig.json file and the file extension
+control what it gets compiled into.
+
+.cts -> always gives you .cjs
+.mts -> always gives you .mjs
+.js -> stays the same.  Compilation result depends on 
