@@ -1,6 +1,0 @@
-Then NodeJS came along, as a way to run JavaScript outside the browser, on the server side.
-Since there's no browser, there's no DOM, no <sccript> tags, so they needed another way to import files.
-
-What they came up with is called CommonJS:
-* require() function synchronously imports a file
-* To export things, attach them to module.exports
