@@ -1,20 +1,28 @@
-I'd like to share my knowledge on Typescript.
+## Overview
 
 This talk is going to be all about modules and imports.
 
 This is all stuff that's good to know as a typescript developer.
-However, a lot of this talk will be about things other than typescript, such as:
+However, a lot of this talk will be about things other than typescript,
+such as your browser and Node.js.
 
-- Your browser
-- Node
-- Yarn Plug'n'Play
-- PNPM
+This week: CommonJS and ECMAScript Modules
+Next week: Packages, package.json, and package managers
 
-You'll learn how the module system really works.
+## To follow along:
 
 These are all runnable examples. I encourage you to check out this repository and try them yourself!
 
-More reading:
+```
+git clone https://github.com/nickretallack/typescript-talk.git
+cd typescript-talk
+corepack enable pnpm
+pnpm install
+```
+
+These instructions assume you already have `git`, `node`, and `corepack`.
+
+## More reading
 
 - A horrifically deep dive into TypeScript module resolution: https://www.youtube.com/watch?v=MEl2R7mEAP8&t=1s
 - Total Typescript online course: https://www.totaltypescript.com/
