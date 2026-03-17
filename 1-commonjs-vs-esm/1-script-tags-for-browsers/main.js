@@ -16,9 +16,25 @@ try {
   console.error(error);
 }
 
+try {
+  window.helloPrivate();
+} catch (error) {
+  console.error(error);
+}
+
 // All are available in the global scope anyway though.
 helloWindow();
 helloVar();
 helloFunction();
 helloLet();
 helloConst();
+
+// The private function is not available in the global scope.
+try {
+  helloPrivate();
+} catch (error) {
+  console.error(error);
+}
+
+// However, it is used by this public function.
+window.helloPublic();
