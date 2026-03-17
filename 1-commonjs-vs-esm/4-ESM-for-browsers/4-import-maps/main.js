@@ -1,3 +1,4 @@
+// You can use the import map aliases like this:
 import { createElement } from "react";
 import { createRoot } from "react-dom/client";
 
