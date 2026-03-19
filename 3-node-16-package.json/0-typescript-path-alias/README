@@ -5,3 +5,12 @@ and typescript leaves them unchanged in the output.
 This can easily result in code that doesn't run.
 
 You can use `tsc-alias` to fix them in your output.
+
+Try this:
+
+```
+./build.sh # check dist -- it still has the aliases
+./run.sh # it fails
+./fix-the-build.sh # check dist -- it only has relative imports now
+./run.sh # now it works
+```

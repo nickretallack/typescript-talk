@@ -1,0 +1,6 @@
+If you're compiling to a dist directory,
+your package.json imports should point there,
+since typescript isn't going to change them.
+
+Typescript can still resolve them in your editor
+because it knows where each file goes when it's compiled.

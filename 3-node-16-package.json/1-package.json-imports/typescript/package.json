@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "imports": {
+    "#deep/*": "./dist/deeply/nested/*",
+    "#root/*": "./dist/*"
+  }
+}
