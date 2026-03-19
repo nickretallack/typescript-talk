@@ -13,6 +13,8 @@ Which essentially does this:
 
     node --require=./.pnp.cjs --experimental-loader=./.pnp.loader.mjs 1-use-direct-dependency.js
 
+The dependencies actually exist in zip files in ~/.yarn/berry/cache by default.
+
 Importing a direct dependency should work:
 */
 import isOdd from "is-odd";
