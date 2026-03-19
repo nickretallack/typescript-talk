@@ -14,6 +14,6 @@ ESM never supported guessing file extensions in web browsers
 because it would be very costly to do multiple network requests
 just to figure out what a file's real file extension is.
 */
-import { hello } from "./example/index";
+import { hello } from "./example/index.js";
 
 hello();

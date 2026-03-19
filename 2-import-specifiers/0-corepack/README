@@ -1,0 +1,11 @@
+Before we talk about package managers,
+lets talk about corepack.
+
+It's the package manager for your package managers.
+It's kind of like `nvm`.
+
+First, enable corepack by running ./enable.sh.
+Then, cd into each directory and try to run various package managers.
+
+Each directory will only allow you to use
+the package manager that matches its packageManager setting.

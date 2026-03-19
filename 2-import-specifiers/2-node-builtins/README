@@ -1,4 +1,0 @@
-While browser builtins are all global,
-NodeJS has some features you have to import.
-Traditionally, you'd just import them with their name.
-However, Node eventually added an alternative way to import them that makes it specific you're looking for the Node builtin.

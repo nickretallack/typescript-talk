@@ -2,10 +2,6 @@
 In typescript, you always write code like it's ESM.
 The `module` setting in tsconfig.json determines what it compiles to.
 
-
-
-
-
 When you compile your code with `tsc`,
 it won't change the import specifiers.
 
