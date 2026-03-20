@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "#src/*": {
+      "surprise": {
+        "import": "./*.surprise.mjs",
+        "require": "./*.surprise.cjs"
+      },
+      "import": "./*.mjs",
+      "require": "./*.cjs"
+    }
+  }
+}

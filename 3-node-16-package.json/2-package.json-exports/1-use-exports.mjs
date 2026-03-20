@@ -17,7 +17,7 @@ longPath();
 import wildcard from "some-package/wildcard/nested/thing.js";
 wildcard();
 
-// This uses the './wildcardjs/*' export.
+// This uses the './wildcard-js/*' export.
 // Since that export ends in .js, we don't need to provide the file extension.
-import wildcardjs from "some-package/wildcardjs/nested/thing";
+import wildcardjs from "some-package/wildcard-js/nested/thing";
 wildcardjs();
