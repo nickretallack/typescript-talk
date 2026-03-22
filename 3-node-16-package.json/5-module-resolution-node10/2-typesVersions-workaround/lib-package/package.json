@@ -1,8 +1,15 @@
 {
   "name": "lib-package",
-  "type": "module",
+  "type": "commonjs",
   "exports": {
     "./the-lib": "./dist/lib.js"
+  },
+  "typesVersions": {
+    "*": {
+      "the-lib": [
+        "dist/lib.d.ts"
+      ]
+    }
   },
   "scripts": {
     "build": "tsc"

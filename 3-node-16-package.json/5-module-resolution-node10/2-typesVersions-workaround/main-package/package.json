@@ -1,0 +1,15 @@
+{
+  "name": "main-package",
+  "type": "commonjs",
+  "imports": {
+    "#src/*": "./dist/*"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "lib-package": "workspace:*",
+    "typescript": "5.9.3"
+  }
+}

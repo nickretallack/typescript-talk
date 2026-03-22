@@ -1,6 +1,6 @@
 {
   "name": "lib-package",
-  "type": "module",
+  "type": "commonjs",
   "exports": {
     "./the-lib": "./dist/lib.js"
   },
