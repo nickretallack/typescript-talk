@@ -1,0 +1,1 @@
+npm_config_auto_install_peers=false pnpm install
