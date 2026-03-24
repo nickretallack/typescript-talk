@@ -8,5 +8,5 @@ that makes it explicit you're looking for the Node builtin. */
 import fs2 from "node:fs";
 
 // You get the same thing either way.
-console.log(fs1.readFileSync("1-bare-builtins.mjs", "utf8"));
-console.log(fs2.readFileSync("1-bare-builtins.mjs", "utf8"));
+console.log(fs1.readFileSync("main.mjs", "utf8"));
+console.log(fs2.readFileSync("main.mjs", "utf8"));
