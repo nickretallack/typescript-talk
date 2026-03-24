@@ -1,4 +1,5 @@
 {
+  "name": "yarn-plug-n-play-phantom-dependencies-example",
   "packageManager": "yarn@4.13.0",
   "type": "module",
   "dependencies": {
