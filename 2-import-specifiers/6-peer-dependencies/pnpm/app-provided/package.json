@@ -1,0 +1,8 @@
+{
+  "name": "app-provided",
+  "type": "module",
+  "dependencies": {
+    "lib": "workspace:*",
+    "is-number": "^7.0.0"
+  }
+}

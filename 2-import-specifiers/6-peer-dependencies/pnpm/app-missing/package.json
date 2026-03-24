@@ -1,0 +1,7 @@
+{
+  "name": "app-missing",
+  "type": "module",
+  "dependencies": {
+    "lib": "workspace:*"
+  }
+}

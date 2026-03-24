@@ -1,0 +1,7 @@
+{
+  "name": "lib",
+  "type": "module",
+  "peerDependencies": {
+    "is-number": "^7.0.0"
+  }
+}

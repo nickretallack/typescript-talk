@@ -1,0 +1,10 @@
+{
+  "name": "yarn-plug-n-play-peer-dependencies-example",
+  "type": "module",
+  "packageManager": "yarn@4.13.0",
+  "workspaces": [
+    "lib",
+    "app-provided",
+    "app-missing"
+  ]
+}
