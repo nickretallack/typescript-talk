@@ -1,0 +1,6 @@
+// Uses a dev dependency.
+import { v4 as uuidv4 } from "uuid";
+
+export function getUuid() {
+  return uuidv4();
+}

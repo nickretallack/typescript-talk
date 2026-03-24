@@ -1,8 +1,10 @@
 {
   "name": "lib",
   "type": "module",
-  "exports": "./index.js",
-  "devDependencies": {
+  "dependencies": {
     "is-odd": "^3.0.1"
+  },
+  "devDependencies": {
+    "uuid": "13.0.0"
   }
 }
