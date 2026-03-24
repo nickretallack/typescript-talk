@@ -1,0 +1,6 @@
+{
+  "name": "npm-dev-dependencies-example",
+  "type": "module",
+  "packageManager": "npm@10.9.4",
+  "workspaces": ["lib", "app"]
+}

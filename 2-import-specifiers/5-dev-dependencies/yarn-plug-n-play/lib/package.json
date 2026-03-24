@@ -1,0 +1,8 @@
+{
+  "name": "lib",
+  "type": "module",
+  "exports": "./index.js",
+  "devDependencies": {
+    "is-odd": "^3.0.1"
+  }
+}

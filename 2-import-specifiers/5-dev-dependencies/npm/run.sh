@@ -1,0 +1,9 @@
+node app/1-use-lib-prod.js
+echo "\n\n-----------------------\n\n"
+node app/2-use-lib-dev.js
+echo "\n\n-----------------------\n\n"
+node app/3-use-lib-prod-dep.js
+echo "\n\n-----------------------\n\n"
+node app/4-use-lib-dev-dep.js
+echo "\n\n-----------------------\n\n"
+node app/5-use-lib-transitive-dep.js
